@@ -1,16 +1,19 @@
-### Hi there 👋
+from typing import List
 
-<!--
-**jborchma/jborchma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Borchmann:
 
-Here are some ideas to get you started:
+    def __init__(self):
+        self.username: str = "jborchma"
+        self.name: str = "Jan Borchmann"
+        self.location: str = "Toronto, ON"
+        self.languages: List[str] = ["English", "German", "Spanish", "Python"]
+        self.hobbies: List[str] = ["📊", "🚲", "⚽️", "🏒", "✈️", "🎸", "🍺"]
+        self.workplace: str = "Capital One"
+        self.job: str = "Data Scientist"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __str__(self):
+        return self.name
+
+
+if __name__ == "__main__":
+    me = Borchmann()
