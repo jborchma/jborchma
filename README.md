@@ -8,8 +8,8 @@ class Borchmann:
         self.name: str = "Jan Borchmann"
         self.location: str = "Toronto, ON"
         self.languages: List[str] = ["English", "German", "Spanish", "Python"]
-        self.hobbies: List[str] = ["📊", "🚲", "⚽️", "🏒", "✈️", "🎸", "🍺"]
-        self.workplace: str = "Capital One"
+        self.hobbies: List[str] = ["🚲", "⚽️", "🏒", "✈️", "🎸", "🍺"]
+        self.workplace: str = "Shopify"
         self.job: str = "Data Scientist"
 
     def __str__(self):
